@@ -1,0 +1,57 @@
+
+
+Header{
+    background-color: #31343d;
+    padding: 1px;
+}
+
+h1{
+    position: absolute;
+    top: -2%;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 1%;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#31343d;
+    background-color: #91cbcd;
+    border: solid;
+    border-color: 31343d;
+    border-radius: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+a:link{
+    position: relative;
+    padding: 10px;
+    left: 500px;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    color: #91cbcd;
+}
+
+.about-me{
+    font-size: 30px;
+    color: #445877;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.work{
+    font-size: 30px;
+    color: #445877;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.contact-me{
+    font-size: 30px;
+    color: #445877;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
