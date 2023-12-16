@@ -9,27 +9,23 @@ Header{
 
 h1{
     position: absolute;
-    top: -2%;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-left: 10%;
-    font-size: 50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#31343d;
-    background-color: #91cbcd;
+    top: 2%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #31343d;
+    background-color: #9ea7a7;
     border: solid;
     border-color: 31343d;
     border-radius: 100px;
 }
 
-.banner{
-    margin-left: 5%;
-    margin-right: 10%;
-    padding: 15px;
-    font-size: 30px;
-    width: 100%;
-    background-color: rebeccapurple;
-
+.banner img{
+    width: 1465px;
+    height: 115px;
+    margin-bottom: 2%;
 }
 
 
@@ -39,12 +35,12 @@ nav ul li{
 
 a:link{
     position: relative;
-    padding: 10px;
+    padding: 15px;
     left: 850px;
-    font-size: 30px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
-    color: #91cbcd;
+    color: #9ea7a7;
 }
 
 a:hover{
@@ -53,7 +49,7 @@ a:hover{
 
 .about-me{
     position: absolute;
-    left: 230px;
+    left: 100px;
     top: 216px;
     font-size: 20px;
     color: #445877;
@@ -63,21 +59,37 @@ a:hover{
 
 .work{
     position: absolute;
-    left: 230px;
+    left: 100px;
     top: 432px;
     font-size: 20px;
     color: #445877;
+    border-right: 3px solid #445877;
+    height: 200px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
 .contact-me{
     position: absolute;
-    left: 230px;
+    left: 100px;
     top: 648px;
     font-size: 20px;
     color: #445877;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+
+.contact-me li{
+    display: inline;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 40px;
+}
+
+p{
+    margin-left: 300px;
+    font-size: 15px;
+    margin: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
