@@ -22,7 +22,7 @@ h1{
 }
 
 .banner img{
-    width: 1465px;
+    width: 1494px;
     height: 280px;
     margin-bottom: 2%;
 }
@@ -51,14 +51,18 @@ a:hover{
     left: 100px;
     top: 390px;
     font-size: 22px;
-    color: #445877;
+    color: #31343d;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #about-me .bio{
     position: relative;
-    left: 400px;
-     text-wrap:balance;
+    left: 180px;
+    top: -60px;
+    text-wrap: balance;
+    border-left: 2px solid #000000;
+    height: 300px;
+    padding-left: 50px;
 }
 
 .work{
@@ -66,8 +70,7 @@ a:hover{
     left: 100px;
     top: 780px;
     font-size: 22px;
-    color: #445877;
-    border-right: 3px solid #445877;
+    color: #31343d;
     height: 200px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -78,7 +81,7 @@ a:hover{
     left: 100px;
     top: 1360px;
     font-size: 22px;
-    color: #445877;
+    color: #31343d;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -91,7 +94,7 @@ a:hover{
 }
 
 p{
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
