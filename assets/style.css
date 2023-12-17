@@ -51,6 +51,7 @@ a:hover{
     left: 100px;
     top: 406px;
     font-size: 40px;
+    color: #31343d;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -72,9 +73,10 @@ a:hover{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;a Sans', Arial, sans-serif;
 }
 
+
 .work .work-experience-1 img{
-    position: absolute;
-    top: 760;
+    position: relative;
+    top: 364px;
     left: 317px;
     width: 1074px;
     border: 5px solid black;
@@ -82,8 +84,8 @@ a:hover{
 }
 
 .work .work-experience-2 img{
-    position: absolute;
-    top: 1089px;
+    position: relative;
+    top: 380px;
     left: 317px;
     width: 520px;
     border: 5px solid black;
@@ -91,36 +93,41 @@ a:hover{
 }
 
 .work .work-experience-3 img{
-    position: absolute;
-    top: 1089px;
-    left: 871px;
+    position: relative;
+    top: 402px;
+    left: 876px;
     width: 520px;
     border: 5px solid black;
     height: 150px;
 }
 
 .work .work-experience-4 img{
-    position: absolute;
-    top: 1267px;
-    left: 871px;
+    position: relative;
+    top: 61px;
+    left: 873px;
     width: 520px;
     border: 5px solid black;
     height: 150px;
 }
 
 .work .work-experience-5 img{
-    position: absolute;
-    top: 1267;
-    left: 317;
+    position: relative;
+    top: 83px;
+    left: 317px;
     width: 520px;
     border: 5px solid black;
     height: 150px;
 }
 
+#portfolio img{
+    display: flex;
+    flex-direction: row;
+}
+
 .contact h2{
     position: absolute;
     left: 69px;
-    top: 1542px;;
+    top: 1500px;;
     font-size: 40px;
     color: #31343d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -129,13 +136,15 @@ a:hover{
 .contact ul li{
     display: inline;
     text-decoration: underline;
-    font-size: 20px;
-    padding: 40px;
+    font-size: 25px;
+    padding: 40px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .contact ul{
     position: relative;
-    top: 1230px;
+    top: 1200px;
     text-align: center;
 }
 
