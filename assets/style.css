@@ -22,7 +22,7 @@ h1{
 }
 
 .banner img{
-    width: 1494px;
+    width: 1536px;
     height: 280px;
     margin-bottom: 2%;
 }
@@ -66,6 +66,7 @@ a:hover{
 
 .work h2{
     position: absolute;
+    text-wrap: balance;
     left: 172px;
     top: 727px;
     font-size: 40px;
@@ -119,13 +120,15 @@ a:hover{
     height: 150px;
 }
 
-#portfolio img{
+.work{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
+
 
 .contact h2{
     position: absolute;
+    text-wrap: balance;
     left: 69px;
     top: 1500px;;
     font-size: 40px;
@@ -134,6 +137,7 @@ a:hover{
 }
 
 .contact ul li{
+    text-wrap: balance;
     display: inline;
     text-decoration: underline;
     font-size: 25px;
@@ -143,8 +147,9 @@ a:hover{
 }
 
 .contact ul{
+    text-wrap: balance;
     position: relative;
-    top: 1200px;
+    top: 250px;
     text-align: center;
 }
 
