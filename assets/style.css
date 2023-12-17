@@ -46,55 +46,100 @@ a:hover{
     color: white;
 }
 
-#about-me{
+.about h2{
     position: absolute;
     left: 100px;
-    top: 390px;
-    font-size: 22px;
-    color: #31343d;
+    top: 406px;
+    font-size: 40px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#about-me .bio{
-    position: relative;
-    left: 180px;
-    top: -60px;
+.about .bio{
+    position: absolute;
+    left: 323px;
+    top: 420px;
     text-wrap: balance;
-    border-left: 2px solid #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.work h2{
+    position: absolute;
+    left: 172px;
+    top: 727px;
+    font-size: 40px;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;a Sans', Arial, sans-serif;
+}
+
+.work .work-experience-1 img{
+    position: absolute;
+    top: 760;
+    left: 317px;
+    width: 1074px;
+    border: 5px solid black;
     height: 300px;
-    padding-left: 50px;
 }
 
-.work{
+.work .work-experience-2 img{
     position: absolute;
-    left: 100px;
-    top: 780px;
-    font-size: 22px;
-    color: #31343d;
-    height: 200px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    top: 1089px;
+    left: 317px;
+    width: 520px;
+    border: 5px solid black;
+    height: 150px;
 }
 
-.contact-me{
+.work .work-experience-3 img{
     position: absolute;
-    left: 100px;
-    top: 1360px;
-    font-size: 22px;
-    color: #31343d;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    top: 1089px;
+    left: 871px;
+    width: 520px;
+    border: 5px solid black;
+    height: 150px;
 }
 
-.contact-me li{
+.work .work-experience-4 img{
+    position: absolute;
+    top: 1267px;
+    left: 871px;
+    width: 520px;
+    border: 5px solid black;
+    height: 150px;
+}
+
+.work .work-experience-5 img{
+    position: absolute;
+    top: 1267;
+    left: 317;
+    width: 520px;
+    border: 5px solid black;
+    height: 150px;
+}
+
+.contact h2{
+    position: absolute;
+    left: 69px;
+    top: 1542px;;
+    font-size: 40px;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact ul li{
     display: inline;
     text-decoration: underline;
     font-size: 20px;
     padding: 40px;
 }
 
+.contact ul{
+    position: relative;
+    top: 1230px;
+    text-align: center;
+}
+
 p{
     font-size: 17px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
