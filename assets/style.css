@@ -28,6 +28,7 @@ h1 {
     width: 1905px;
     height: 130px;
     margin-bottom: 2%;
+    border-bottom: 5px solid rgb(220, 183, 179);
 }
 
 
@@ -53,7 +54,6 @@ a:hover{
 
 .about h2{
     position: relative;
-    display: block;
     margin-left: 200px;
     width: 200px;
     font-size: 40px;
@@ -87,6 +87,59 @@ a:hover{
     text-align: right;
     color: #31343d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Sans', Arial, sans-serif;
+    border-right: 3px solid black;
+    padding-right: 25px;
+    height: 700px;
+}
+
+.work .experience-1 img{
+    position: relative;
+    display:block;
+    top: -600;
+    left: 500;
+    width: 56%;
+    height: 200px;
+    border: 10px solid black;
+}
+
+.work .experience-2 img{
+    position: relative;
+    display:block;
+    top: -580;
+    left: 500;
+    width: 26%;
+    height: 200px;
+    border: 10px solid black;
+}
+
+.work .experience-3 img{
+    position: relative;
+    display:block;
+    top: -800px;
+    left: 1070px;
+    width: 26%;
+    height: 200px;
+    border: 10px solid black;
+}
+
+.work .experience-4 img{
+    position: relative;
+    display: block;
+    top: -780px;
+    left: 500px;
+    width: 26%;
+    height: 200px;
+    border: 10px solid black;
+}
+
+.work .experience-5 img{
+    position: relative;
+    display:block;
+    top: -1000px;
+    left: 1070px;
+    width: 26%;
+    height: 200px;
+    border: 10px solid black;
 }
 
 
@@ -114,7 +167,7 @@ a:hover{
 .contact ul{
     text-wrap: balance;
     position: relative;
-    top: 1500px;
+    top: 100px;
     text-align: center;
 }
 
